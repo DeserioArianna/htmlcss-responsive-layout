@@ -79,9 +79,18 @@ ul {
 .social {
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
-.facebook, .twitter, .instagram, .pintarest, .youtube {
+.banner {
+    display: none;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.pintarest,
+.youtube {
     background-color: #ffffff;
     padding: 10px;
     border-radius: 20px;
@@ -99,7 +108,8 @@ ul {
     color: #e87fa6;
 }
 
-.pintarest, .youtube {
+.pintarest,
+.youtube {
     color: #e62322;
 }
 
@@ -159,7 +169,7 @@ a {
         justify-content: flex-start;
         padding-left: 20px;
     }
-    
+
     .container {
         padding: 40px;
     }
@@ -182,6 +192,7 @@ a {
     .video {
         height: 100%;
     }
+
     .video-description ul {
         display: flex;
         flex-wrap: wrap;
@@ -191,6 +202,56 @@ a {
         padding: 10px 0;
         width: calc((100% - 20px) / 3);
     }
+
+    .social {
+        padding: 0 40px;
+    }
+
+    .banner {
+        display: block;
+        padding: 0 40px;
+        margin-top: 40px;
+    }
+
+    .facebook,
+    .twitter,
+    .instagram,
+    .pintarest,
+    .youtube {
+        background-color: #ffffff;
+        padding: 10px 50px;
+        border-radius: 20px;
+    }
+
+    .presentation {
+        font-size: 2rem;
+    }
+
+    hr {
+        width: 13%;
+        margin: 20px 0;
+    }
+
+    .img-center {
+        float: left;
+        width: 40%;
+        padding-right: 10px;
+    }
+
+    .title-size {
+        font-size: medium;
+        line-height: 30px;
+    }
+
+    .footer-center {
+        font-size: medium;
+        padding: 30px;
+        line-height: 30px
+    }
+
+    h5 {
+        font-size: medium;
+    }
 }
 
 
@@ -198,11 +259,12 @@ a {
     .bg-gray {
         background-color: #f6f5f3;
     }
+
     .container {
         width: 80%;
         margin: 0 auto;
     }
-    
+
     .first-video {
         width: 70%;
     }
